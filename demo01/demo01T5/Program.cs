@@ -12,20 +12,13 @@ namespace demo01T5
         {
             /*Tee ohjelma, joka näyttää annetun sekuntimäärän tunteina, minuutteina ja sekunteina. 
             Aikamääre sekuntteina kysytään käyttäjältä.*/
-
-            int koksek;
-
-            int sek;
-            int min;
-            int h;
-            Console.WriteLine("Anna aika sekunteina: ");
-            koksek = int.Parse(Console.ReadLine());
-
-            while (koksek != 0)
-                sek = (koksek % 60);
-                min = (koksek % 3600) / 60;
-                h = koksek / 3600;
-            Console.WriteLine("Anna sekunttiaika voidaan ilmaista muodossa: " +koksek);
+            static string Method1(int secs)
+            {
+                int hours = secs / 3600;
+                int mins = (secs % 3600) / 60;
+                secs = secs % 60;
+                return string.Format("{0:D2}:{1:D2}:{2:D2}", hours, mins, secs);
+            }
 
         }
     }
