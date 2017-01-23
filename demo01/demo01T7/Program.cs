@@ -15,7 +15,7 @@ namespace demo01T7
             Console.Write("Anna vuosi >");
             vuosi = int.Parse(Console.ReadLine());
 
-            // jos vuosi on 400 jaollinen ->  karkausvuosi
+            // jos vuosi jaetaan 400:lla ja itseisarvo on nolla ->  karkausvuosi
             if (vuosi % 400 == 0)
             {
                 Console.Write("Vuosi on karkausvuosi" + "\n");
