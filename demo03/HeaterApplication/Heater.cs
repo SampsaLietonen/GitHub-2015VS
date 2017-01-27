@@ -41,5 +41,6 @@ namespace HeaterApplication
             Console.WriteLine("- temperature: " + Temperature);
             Console.WriteLine("- humidity: " +Humidity);
         }
+
     }
 }

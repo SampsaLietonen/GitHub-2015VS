@@ -32,6 +32,10 @@ namespace HeaterApplication
             Console.WriteLine("Temperature: " +heater.Temperature);
 
             //testing...
+            Console.WriteLine("You can go to Sauna: " +heater.Temperature);
+            {
+                while (heater.Temperature >=70); 
+            }
         }
     }
 }
