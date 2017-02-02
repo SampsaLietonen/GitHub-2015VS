@@ -18,7 +18,7 @@ namespace T2demo04
                 Console.WriteLine("Give a volume between 0-100: ");
                 input = int.Parse(Console.ReadLine());
                 pioneer.Volume = input;
-                Console.WriteLine("Amplifier volume is set to: " + pioneer.Volume);
+                Console.WriteLine("Volume: " + pioneer.Volume);
 
             }
             while (input != -1 );

@@ -20,13 +20,13 @@ namespace T2demo04
 
                 else if (value < MinVolume)
                 {
-                    Console.WriteLine("Too low volume - Amplifier is set to minimun: " +MinVolume);
+                    Console.WriteLine("Too low volume - Amplifier is set to minimun " );
                     volume = MinVolume;
                 }
 
                 else if (value > MaxVolume)
                 {
-                    Console.WriteLine("Too high volume - Amplifier is set to maximum: " + MaxVolume);
+                    Console.WriteLine("Too high volume - Amplifier is set to maximum " );
                     volume = MaxVolume;
                 }
             }
