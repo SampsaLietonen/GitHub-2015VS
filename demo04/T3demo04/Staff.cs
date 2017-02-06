@@ -35,7 +35,7 @@ namespace T3demo04
         //return Staff data as a one string, override Object class ToString()- method
         public override string ToString()
         {
-            return Name + ":" + Profession + ":" + Salary;
+            return "Name:" + Name + " " + "Profession:" + Profession + " " + "Salary:" + Salary + " ";
         }
     }
 }

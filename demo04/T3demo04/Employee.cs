@@ -30,7 +30,7 @@ namespace T3demo04
             //Staff- luokan ToString + Salary
             //palauttaa name:profession:salary
             //base viittaa ylikuokkaan eli nyt Staff- luokkaan
-            return base.ToString() + ":";
+            return base.ToString();
         }
     }
 }
